@@ -6,13 +6,13 @@ actions:
     build:
       runs_on:
       packager_image: veracode/scm-packaging:3.0.0
-      predependency_command: |
+      #predependency_command: |
         
   veracode_sca_scan:
     build:
       runs_on:
       packager_image:
-      predependency_command: |
+      #predependency_command: |
       
 veracode_static_scan:
   push:
